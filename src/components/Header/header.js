@@ -12,10 +12,9 @@ import { Navbar} from 'react-bootstrap';
 export const Header = (props) => {
 
     return (
-      <Navbar bg="dark" expand="lg">
+      <Navbar bg="dark" expand="xl">
         <Navbar.Brand>{props.title}</Navbar.Brand>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
-          <LanguageSelect/>
+        <LanguageSelect/>
       </Navbar>
     );
 }
